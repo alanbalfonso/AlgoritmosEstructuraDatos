@@ -1,6 +1,3 @@
-/**
- * @author Alan Bauza Alfonso
- */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -19,6 +16,7 @@ public class tombola {
     /**
      * @param args
      * @throws IOException
+     * @author Alan Bauza Alfonso
      */
     public static void main(String[] args) throws IOException {
         inicializarPremios();
@@ -34,6 +32,7 @@ public class tombola {
 
     /**
      * LLenado de la tabla Hash con los premios
+     * @author Alan Bauza Alfonso
      */
     private static void inicializarPremios() {
         premiosArticulos.put(2, "Licuadora");
@@ -54,6 +53,7 @@ public class tombola {
      * @param numeros
      * @param cantidad
      * @return numeros ganadores
+     * @author Alan Bauza Alfonso
      */
     private static void asignarNumeros(HashSet<Integer> numeros, int cantidad) {
         //!Evitar que se repita indefinidamente la funcion
@@ -72,6 +72,7 @@ public class tombola {
     /**
      * Interactividad con el usuario y entrega de ganadores
      * @throws IOException
+     * @author Alan Bauza Alfonso
      */
     private static void entregarPremios() throws IOException {
         //ColaGanadores debe estar lleno para empezar el programa
