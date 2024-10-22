@@ -36,6 +36,7 @@ public class tombola {
      * LLenado de la tabla Hash con los premios
      */
     private static void inicializarPremios() {
+        premiosArticulos.put(2, "Licuadora");
         premiosArticulos.put(7, "Television");
         premiosArticulos.put(12, "Coche");
         premiosArticulos.put(23, "Viaje de 2 noches");
